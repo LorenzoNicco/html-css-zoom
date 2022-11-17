@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
-    <body class="debug">
+    <body>
         <main>
             <!-- CONTROLLI SPEAKER E VIEW -->
             <div>
@@ -245,8 +245,86 @@
         </main>
 
         <!-- CONSOLE -->
-        <footer>
+        <!-- PARTE SINISTRA -->
+        <footer class="container-flex">
+            <div class="container-flex">
+                <div class="container-flex icons">
+                    <div>
+                        <i class="fa-solid fa-microphone"></i>
+                        <br>
+                        <span>Mute</span>
+                    </div>
+                    
+                    <i class="fa-solid fa-angle-up"></i>
+                </div>
+                <div class="container-flex">
+                    <div>
+                        <i class="fa-solid fa-video"></i>
+                        <br>
+                        <span>Stop Video</span>
+                    </div>
+                    
+                    <i class="fa-solid fa-angle-up"></i>
+                </div>
+            </div>
             
+            <!-- SECONDA PARTE -->
+            <nav class="container-flex">
+                <div class="icons">
+                    <i class="fa-solid fa-user-plus"></i>
+                    <br>
+                    <span>Invite</span>
+                </div>
+
+                <div class="icons">
+                    <i class="fa-solid fa-user-group"></i>
+                    <br>
+                    <span>Manage Participants</span>
+                </div>
+
+                <div class="icons">
+                    <i class="fa-solid fa-chart-column"></i>
+                    <br>
+                    <span>Pooling</span>
+                </div>
+
+                <div class="icons">
+                    <i id="green" class="fa-solid fa-share-from-square"></i>
+                    <br>
+                    <span>Share Screen</span>
+                </div>
+
+                <i class="fa-solid fa-angle-up"></i>
+
+                <div class="icons">
+                    <i class="fa-solid fa-comment"></i>
+                    <br>
+                    <span>Chat</span>
+                </div>
+
+                <div class="icons">
+                    <i class="fa-solid fa-record-vinyl"></i>
+                    <br>
+                    <span>Record</span>
+                </div>
+
+                <div class="icons">
+                    <i class="fa-solid fa-border-all"></i>
+                    <br>
+                    <span>Breakout Rooms</span>
+                </div>
+
+                <div class="icons">
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <br>
+                    <span>More</span>
+                </div>
+            </nav>
+
+            <!-- TERZA PARTE -->
+            <div>
+
+            </div>
         </footer>
     </body>
 </html>

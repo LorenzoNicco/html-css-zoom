@@ -9,6 +9,8 @@
 /* REGOLE GENERALI */
 body{
     background-color: black;
+    color: white;
+    font-size: 0.7em;
 }
 
 .container-flex{
@@ -18,13 +20,13 @@ body{
 
 /* CONTROLLI SPEAKER E VIEW */
 .speaker-view{
-    color: white;
     padding: 5px 25px;
     justify-content: flex-end;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    z-index: 5;
 }
 
 .speaker-view > div{
@@ -49,7 +51,7 @@ section > div{
 
 .users{
     width: calc(100% / 7);
-    height: 120px;
+    height: 100px;
     padding: 5px 2px;
 }
 
@@ -62,7 +64,6 @@ section > div{
 }
 
 .username{
-    color: white;
     background-color: rgba(78, 78, 78, 0.7);
     padding: 3px;
     position: absolute;
@@ -74,13 +75,38 @@ section > div{
 /* CONSOLE */
 footer{
     background-color: #222222;
-    min-height: 60px;
     width: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
+    justify-content: space-between;
 }
+
+footer .container-flex{
+    align-items: center;
+    padding: 5px;
+}
+
+.icons{
+    text-align: center;
+    padding: 0 10px;
+}
+
+footer i:first-child{
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+[class="fa-solid fa-angle-up"]{
+    padding: 10px;
+}
+
+#green{
+    color: #4bc800;
+}
+
+
 
 
 /* DEBUG */
