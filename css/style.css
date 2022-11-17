@@ -4,3 +4,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* REGOLE GENERALI */
+body{
+    background-color: black;
+}
+
+.container-flex{
+    display: flex;
+}
+
+
+/* CONTROLLI SPEAKER E VIEW */
+.speaker-view{
+    color: white;
+    padding: 5px;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.speaker-view > div{
+    background-color: gray;
+    border-radius: 5px;
+    padding: 3px;
+    margin-left: 5px;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+}
