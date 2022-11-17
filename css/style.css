@@ -36,6 +36,10 @@ body{
     margin-left: 5px;
 }
 
+.speaker-view > div:hover{
+    cursor: pointer;
+}
+
 
 /* SEZIONE PRINCIPALE */
 section > div{
@@ -92,7 +96,10 @@ footer .container-flex{
 
 .icons{
     text-align: center;
-    padding: 0 10px;
+    margin: 0 10px;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 2px;
 }
 
 footer i:first-child{
@@ -102,6 +109,9 @@ footer i:first-child{
 
 [class="fa-solid fa-angle-up"]{
     padding: 10px;
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 5px;
 }
 
 #green{
@@ -111,6 +121,22 @@ footer i:first-child{
 .end{
     background-color: #4a4a4a;
     color: red;
+}
+
+.icons:hover{
+    cursor: pointer;
+    background-color: #4a4a4a;
+    color: coral;
+}
+
+[class="fa-solid fa-angle-up"]:hover{
+    cursor: pointer;
+    background-color: #4a4a4a;
+    color: coral;
+}
+
+.end:hover{
+    cursor: pointer;
 }
 
 
